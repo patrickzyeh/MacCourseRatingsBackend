@@ -1,0 +1,8 @@
+### GET request to get all courses
+GET http://localhost:8080/api/courses/
+
+### GET request to get course by courseCode
+GET http://localhost:8080/api/courses/MATH%201ZA3
+
+### GET request to get a course by courseCode that doesnt exists
+GET http://localhost:8080/api/courses/MATH%201ZA
