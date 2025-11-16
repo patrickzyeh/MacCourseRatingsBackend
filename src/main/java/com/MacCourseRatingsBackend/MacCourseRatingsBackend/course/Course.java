@@ -14,7 +14,7 @@ public class Course {
     @Column(name= "course_title")
     private String courseTitle;
 
-    public Course() {
+    protected Course() {
 
     }
 

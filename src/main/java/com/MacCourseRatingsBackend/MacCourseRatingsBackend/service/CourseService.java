@@ -5,11 +5,12 @@ import com.MacCourseRatingsBackend.MacCourseRatingsBackend.course.CourseNotFound
 import com.MacCourseRatingsBackend.MacCourseRatingsBackend.course.CourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
-@Component
+@Service
 public class CourseService {
     private final CourseRepository courseRepository;
 
